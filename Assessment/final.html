@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!---font awesome cdnjs--->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!---Icons form Materialize css-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <link rel="stylesheet" href="style.css">
+
+   
+
+
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="blue darken-4">
+              <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo">BugSmasher.dev</a>
+                <a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#intro">Intro</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#about_me">About me</a></li>
+                  <li><a href="#contact_me">Schedule</a></li>
+                </ul>
+              </div>
+            </nav>
+            <ul class="sidenav" id="mobile-sidenav">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#contact_me">Schedule</a></li>
+              </ul>
+          </div>
+    </header>
+    <main>
+        <div class="parallax-custom">
+            <div class="row valign-wrapper full-height container">
+                <div class="col s12 m6">
+                    <div class="custom-container">
+                        <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                    </div>
+                </div>
+                <div class="col m6"></div>
+            </div>
+        </div>
+      <div id="intro" class="section scrollspy" >
+        <div class="container">
+            <div class="row ">
+                <div class="col s12 m6">
+                    <img src="image\about_me1.jpg" class="responsive-img" alt="">
+                </div>
+                <div class="col s12 m6 card grey darken-4 white-text z-depth-3">
+                    <h3>Hi, I'm Riland!</h3>
+                    <h5>Web Developer</h5>
+                    <br>
+                    <h6>Hello and welcome to my portfolio!</h6>
+                    <br>
+                    <p>I'm passionate about crafting digital experiences that are not only visually appealing but also intuitive and user-friendly.</p>
+                    <br>
+             
+                </div>
+            </div>
+       </div>
+      </div>
+
+      <div id="skills" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 card grey darken-4 white-text z-depth-3" id="left_skills">
+                   <h4>Skills and Tools</h4>
+
+                   <p>These are the following technologies I use in providing services to my clients</p>
+                  
+                        <h6>Coding</h6>
+                        <div class="white">
+                            <img src="image/htmlcssjs.png" alt="native" class="responsive-img">
+                            <img src="image/vscode.png" alt="vscode" class="responsive-img">
+                            <img src="image/jquery.png" alt="jquery" class="responsive-img">
+                            <img src="image/materialize.png" alt="materialize" class="responsive-img">
+                        </div>
+                       
+                      
+                        <h6> Versioning and Design </h6>
+                        <div class="white">
+                            <img src="image/netlify.png" alt="netlify" class="responsive-img">
+                            <img src="image/github.png" alt="github" class="responsive-img">
+                            <img src="image/figma.png" alt="figma" class="responsive-img">
+                            <img src="image/sketch.png" alt="sketch" class="responsive-img">
+                        </div>
+                      
+                        
+                        <h6> Documentation </h6>
+                        <div class="white">
+                            <img src="image/msoffice.png" alt="msoffice" class="responsive-img">
+                        </div>
+                        
+                  
+                </div>
+                <div class="col s12 m6">
+                    <br>
+                    <br>
+                    <img src="image/skills_1.png" alt="skills" class="responsive-img">
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- about me -->
+
+      <div id="about_me" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                   <img src="image/about_me2.jpg" alt="about me" class="responsive-img" style="height: 400px;">
+                </div>
+                <div class="col s12 m6 card grey darken-4 white-text">
+                    <h4>About me</h4>
+                    <p>My journey in web development began 3 years ago, and it's always been a wonderful ride. </p>
+                    <br>
+                    <p>I've done remote work for clients, small to medium projects and collaborated with talented people to create digital products for both business and consumer use.       </p>
+                    <br>
+                    <p>I love problem solving and critical to details and that helped me produce worry free products.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+       
+    
+      <!-- Contact Me -->
+       <div id="contact_me" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 card grey darken-4 white-text z-depth-3">
+                   <h4>Interested?</h4> 
+                   <p>Send us your details now and we'll arrange a date for you </p>
+                   <br>
+                   <button data-target="modal1" class="btn modal-trigger blue right">Schedule Now</button>
+                   <br>
+                   <div id="modal1" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                        <h4 class="black-text">Presentation Request</h4>
+                        <p class="black-text">Congratulations on your first step towards success, kindly fill up the form with the necessary details needed, looking forward to meet you!</p>
+                        <br>
+              
+                        <div class="row">
+                            <form class="col s12">
+                              <div class="row">
+                                    <div class="input-field col s12 m6">
+                                        <input placeholder="First Name" id="first_name" type="text" class="validate">
+                                    
+                                    </div>
+                                    <div class="input-field col s12 m6">
+                                        <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                                    </div>
+                              </div>
+                              <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="Email Address" type="email" class="validate">
+                                    </div>
+                              </div>
+                              <div class="row">
+                                <div class="input-field col s12">
+                                    <input placeholder="Phone Number" type="email" class="validate">
+                                </div>
+                          </div>
+                            </form>
+                          </div>
+                        </div>
+                        
+                       
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-close waves-effect red btn">Cancel</a>
+                      <a href="#!" class="modal-close waves-effect blue btn">Agree</a>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m6">
+                    <img src="image/about_me3.jpg" alt="about_me3" class="responsive-img right-align" style="margin-top: 10px; border-radius: 5%; max-height: 250px; margin-left: 5%;">
+                    
+                </div>
+            </div>
+        </div>
+       </div>
+
+       
+        </div>
+    </main>
+    <footer>
+        
+        <div class="blue darken-4 white-text" style="padding: 3%;">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h5>Get in Touch!</h5> 
+                        <p>Contact me in any of these platforms</p>
+                    </div>
+                    <div class="col s12 m6">
+                        <p><i class="fa-brands fa-facebook"></i> BugSmasher@facebook.com</p>
+                        <p><i class="fa-brands fa-facebook-messenger"></i> bug.smasher.dev </p>
+                        <p><i class="fa-brands fa-instagram"></i> Bug.Smasher </p>
+                        <p><i class="fa-regular fa-envelope"></i> bugsmasher.dev@gmail.com </p>
+                        <p><i class="fa-solid fa-phone"></i> +639123456789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     
+       
+    </footer>
+
+
+
+
+
+<!---JQuery--->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script> 
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="script.js"></script>
+      
+<script>
+    $(document).ready(function(){
+            $('.parallax').parallax();
+            $('.modal').modal();
+            $('.datepicker').datepicker();
+            $('.timepicker').timepicker();
+            $('.scrollspy').scrollSpy({
+                scrollOffset: 100
+            });
+            $('.sidenav').sidenav();
+        });
+</script>
+
+</body>
+</html>
